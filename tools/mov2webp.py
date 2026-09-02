@@ -35,7 +35,7 @@ SEGMENTS = [
 ]
 
 # 输出参数
-WIDTH = 640
+WIDTH = 320
 FPS = 25          # 保持原始帧率（画质优先）
 QUALITY = 100
 METHOD = 6
