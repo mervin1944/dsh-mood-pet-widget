@@ -1,10 +1,12 @@
 # DSH 情绪桌宠挂件（dsh-mood-pet-widget）
 
+[![Fork 自 DeepSeek-Balance-Whale-Widget](https://img.shields.io/badge/fork%20of-DeepSeek--Balance--Whale--Widget-2ea44f?logo=github)](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)
+
+> 本仓库 **fork 自** [DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)（MIT，作者 [MeteorNOX](https://github.com/MeteorNOX)），并在此之上做了 **v0.3 重构**：主显示从静态鲸鱼 PNG 换成情绪驱动视频动画，表情素材内置打包（自包含，无需外部路径）。核心余额/记账/定价逻辑沿用原项目，感谢原作者的出色工作 🐋
+
 ![DSH 情绪桌宠挂件](assets/DSH2.png)
 
 DeepSeek Harness（DSH）Web 界面右下角的**情绪桌宠**：本体为成步堂表情动画（WebM），会根据 AI 当前操作状态**自动切换表情**——思考时托腮、读文件时举纸、写代码时指指控诉、搜索时特写反应……同时保留 DeepSeek 余额、今日已用、峰谷定价与每轮对话消耗统计。每次打开界面自动启用，标准 DSH bundle 插件。
-
-> 本仓库是 [DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)（MIT）的 **fork + v0.3 重构**：主显示从静态鲸鱼 PNG 换成情绪驱动视频动画，并内置了全部表情素材（自包含，无需外部路径）。核心余额/记账/定价逻辑沿用原项目。
 
 ## 特性
 
