@@ -4,6 +4,14 @@
 
 > 本仓库 **fork 自** [DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)（MIT，作者 [MeteorNOX](https://github.com/MeteorNOX)），并在此之上做了 **v0.3 重构**：主显示从静态鲸鱼 PNG 换成情绪驱动视频动画，表情素材内置打包（自包含，无需外部路径）。核心余额/记账/定价逻辑沿用原项目，感谢原作者的出色工作 🐋
 
+## ☕ 支持维护
+
+如果你觉得这个情绪桌宠有意思、帮到了你，可以请我喝一杯咖啡～ 这会激励我继续打磨和修复 bug。
+
+[![请我喝咖啡](https://img.shields.io/badge/赞助-请我喝一杯咖啡-ff69b4?logo=buy-me-a-coffee)](PUT_YOUR_SPONSOR_URL_HERE)
+
+> ⚠️ 打赏是**支持插件的开发与维护**，**不是购买素材**。本插件不包含任何可商用/可再分发的角色素材；成步堂（逆转裁判）角色与表情素材版权归 Capcom 所有，仅作个人学习/娱乐用途，请勿商用或再分发。
+
 ![DSH 情绪桌宠挂件](assets/DSH2.png)
 
 DeepSeek Harness（DSH）Web 界面右下角的**情绪桌宠**：本体为成步堂表情动画（WebM），会根据 AI 当前操作状态**自动切换表情**——思考时托腮、读文件时举纸、写代码时指指控诉、搜索时特写反应……同时保留 DeepSeek 余额、今日已用、峰谷定价与每轮对话消耗统计。每次打开界面自动启用，标准 DSH bundle 插件。
