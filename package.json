@@ -1,13 +1,15 @@
 {
-  "name": "dsh-whale-widget",
-  "version": "0.2.10",
-  "description": "DSH Web 界面右下角的 DeepSeek 余额小鲸鱼挂件（含今日已用、峰谷定价、随机台词、音效与每轮消耗统计）",
+  "name": "dsh-mood-pet-widget",
+  "version": "0.3.0",
+  "description": "DSH Web 界面右下角的情绪桌宠挂件：成步堂表情动画随 AI 操作状态自动切换，附 DeepSeek 余额、今日已用、峰谷定价与每轮对话消耗统计",
   "keywords": [
     "dsh",
     "dsh-plugin",
     "deepseek-harness",
     "balance",
-    "widget"
+    "widget",
+    "pet",
+    "mood"
   ],
   "type": "module",
   "main": "lib/index.js",
@@ -19,12 +21,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget.git"
+    "url": "git+https://github.com/mervin1944/dsh-mood-pet-widget.git"
   },
   "bugs": {
-    "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget/issues"
+    "url": "https://github.com/mervin1944/dsh-mood-pet-widget/issues"
   },
-  "homepage": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget#readme",
+  "homepage": "https://github.com/mervin1944/dsh-mood-pet-widget#readme",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

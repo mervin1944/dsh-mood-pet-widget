@@ -1,15 +1,18 @@
 # ============================================================================
-# dsh-whale-widget —— DSH bundle patch
+# dsh-mood-pet-widget —— DSH bundle patch
 # ============================================================================
 # 这是插件的"挂载声明"。DSH 启动时按 bundle 层栈叠加各插件 patch，
-# 本文件会把鲸鱼余额挂件插入 Web profile 的配置树。
+# 本文件会把情绪桌宠挂件插入 Web profile 的配置树。
 #
 # 安装方式（不再需要手工复制/手工改 profile patch）：
-#   dsh plugin --profile web add dsh-whale-widget
+#   dsh plugin --profile web add dsh-mood-pet-widget
 # 或本地开发安装：
 #   dsh plugin --profile web add link:<本目录绝对路径>
+#
+# 注意：id/name 必须与实际包名(dsh-mood-pet-widget)一致——cordis 按 name
+# import 包，写错会导致 Cannot find package 错误（历史教训，见 dsh-meme）。
 # ============================================================================
 
 - insert:
-    - id: dsh-whale-widget
-      name: dsh-whale-widget
+    - id: dsh-mood-pet-widget
+      name: dsh-mood-pet-widget
