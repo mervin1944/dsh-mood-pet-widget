@@ -78,7 +78,7 @@ def build_webp(name, start, end, fps=FPS, width=WIDTH, quality=QUALITY, method=M
     duration = int(1000 / fps)
     imgs[0].save(
         out, format='WEBP', save_all=True, append_images=imgs[1:],
-        duration=duration, loop=0, lossless=False, quality=quality, method=method,
+        duration=duration, loop=0, lossless=True, quality=100, method=method,
     )
     size = os.path.getsize(out) / 1024.0
     print(f'  [ok] {name}.webp  {size:.1f} KB  frames={len(files)}  t={start}s-{end}s')
