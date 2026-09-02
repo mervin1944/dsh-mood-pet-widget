@@ -35,9 +35,9 @@ SEGMENTS = [
 ]
 
 # 输出参数
-WIDTH = 180
-FPS = 10          # 采样帧率（从 25fps 降采样）
-QUALITY = 80
+WIDTH = 320
+FPS = 25          # 保持原始帧率（画质优先）
+QUALITY = 90
 METHOD = 6
 
 
